@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="foreground">
+      <div class="top-container">
+        <h1>Produtos</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="produtos-create.html">Novo Produto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h1>Cadastrar Produto</h1>
+      <div>
+        <form>
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+          </div>
+          <div>
+            <label for="descricao">Descrição</label>
+            <textarea name="descricao" id="descricao"></textarea>
+          </div>
+          <div>
+            <label for="imagem">Imagem</label>
+            <input type="file" name="imagem" id="imagem">
+          </div>
+          <div>
+            <label for="fabricante">Fabricante</label>
+            <select name="fabricantes_id" id="fabricante"></select>
+          </div>
+          <div>
+            <input type="submit">
+          </div>                       
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>Todos os direitos reservados.</p>
+  </footer>
+  <script src="./assets/js/produtos-create.js"></script>
+</body>
+</html>

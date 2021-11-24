@@ -1,0 +1,145 @@
+/* General Styles */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;900&display=swap");
+
+:root {
+  --main-color: #e23636;
+}
+
+body {
+  font-family: "Noto Sans JP";
+  font-weight: 400;
+  color: #333333;
+  background-color: #ededed;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p span {
+  color: var(--main-color);
+}
+
+a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+li {
+  font-size: 0.9em;
+}
+
+header {
+  background-position: center;
+  color: white;
+}
+
+header .foreground {
+  background-color: var(--main-color);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.top-container h1 {
+  margin: 0;
+  color: white;
+}
+
+header nav {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+}
+
+header h2 {
+  font-size: 2.6em;
+  text-align: center;
+  color: white;
+  text-shadow: rgba(50, 50, 50, 0.3) 0px 5px 5px;
+}
+
+main {
+  min-height: 80vh;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+  padding: 80px;
+  text-align: center;
+}
+
+section {
+  max-width: 500px;
+  padding: 0px 50px 50px 50px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  margin: 20px auto;
+  background-color: #fff;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px 0px;
+}
+
+form {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+form button {
+  background-color: rgba(72, 12, 168, 0.7);
+  color: white;
+  border: 0;
+  border-radius: 4px;
+}
+
+form input,
+form button {
+  padding: 10px 5px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+form label {
+  font-size: 0.9em;
+  text-align: left;
+  font-weight: bold;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  padding: 5px;
+}
